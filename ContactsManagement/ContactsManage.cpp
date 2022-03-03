@@ -225,7 +225,7 @@ void editPerson(ContactList* contactList)
 				break;
 			}
 			else 
-			{
+{
 				cout << "please enter a valid gender" << endl;
 
 			}
@@ -259,6 +259,7 @@ void removeAll(ContactList* contactList)
 
 int main() 
 {
+
 	int options = 0;
 	ContactList contactList;
 	contactList.count = 0;
